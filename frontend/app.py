@@ -3,7 +3,7 @@ import os
 import streamlit as st
 import pandas as pd
 
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 
 from api.leagues import get_supported_leagues
 from api.fixtures import get_upcoming_fixtures
@@ -39,14 +39,21 @@ if st.button("🔄Load Fixtures"):
 # 3. Predict Results and Corners
 if st.session_state.loaded_fixtures and st.button("🔮 Predict Results"):
     with st.spinner("Predicting results and corners..."):
-        results = predict_upcoming_for_league(selected_league["id"], selected_league["season"])
+        # Use previously loaded fixtures so the predictions match the list above
+        results = predict_upcoming_for_league(
+            selected_league["id"],
+            selected_league["season"],
+            fixtures=st.session_state.loaded_fixtures,
+        )
         if results:
             st.success("✅ Predictions complete")
             st.subheader("📊 Match Predictions")
             for r in results:
                 st.markdown(f"**{r['home_team']} vs {r['away_team']}**")
                 st.markdown(f"- 🏁 Result: `{r['result']}`")
-                st.markdown(f"- 🥅 Corners: `{r['home_corners']} - {r['away_corners']}`")
+                st.markdown(
+                    f"- 🥅 Corners: `{r['home_corners']} - {r['away_corners']}`"
+                )
                 st.markdown("---")
         else:
             st.warning("⚠️ No predictions available. Possibly missing data.")
