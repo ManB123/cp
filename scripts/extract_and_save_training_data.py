@@ -1,7 +1,11 @@
 # scripts/extract_and_save_training_data.py
 import os
 import sys
-import pandas as pd
+try:
+    import pandas as pd
+except ModuleNotFoundError as e:
+    print("pandas is required to run this script. Please install dependencies from the README.")
+    raise
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
@@ -51,8 +55,19 @@ def main():
 
     for league in get_supported_leagues():
         print(f"🔍 Processing {league['name']}...")
-        fixtures = get_finished_fixtures(league["id"], league["season"])
-        rows = [extract_features_from_fixture(f) for f in fixtures]
+        try:
+            fixtures = get_finished_fixtures(league["id"], league["season"])
+        except Exception as e:
+            print(f"⚠️ Failed to fetch fixtures for {league['name']}: {e}")
+            continue
+
+        rows = []
+        for idx, f in enumerate(fixtures, start=1):
+            print(f"  → Extracting fixture {idx}/{len(fixtures)}", end="\r")
+            row = extract_features_from_fixture(f)
+            if row:
+                rows.append(row)
+        print()
         rows = [r for r in rows if r]
 
         if rows:
