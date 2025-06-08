@@ -1,0 +1,366 @@
+Liverpool_Shots on Goal
+Liverpool_Shots off Goal
+Liverpool_Total Shots
+Liverpool_Blocked Shots
+Liverpool_Shots insidebox
+Liverpool_Shots outsidebox
+Liverpool_Fouls
+Liverpool_Corner Kicks
+Liverpool_Offsides
+Liverpool_Ball Possession
+Liverpool_Yellow Cards
+Liverpool_Red Cards
+Liverpool_Goalkeeper Saves
+Liverpool_Total passes
+Liverpool_Passes accurate
+Liverpool_Passes %
+Liverpool_expected_goals
+Liverpool_goals_prevented
+Wolves_Shots on Goal
+Wolves_Shots off Goal
+Wolves_Total Shots
+Wolves_Blocked Shots
+Wolves_Shots insidebox
+Wolves_Shots outsidebox
+Wolves_Fouls
+Wolves_Corner Kicks
+Wolves_Offsides
+Wolves_Ball Possession
+Wolves_Yellow Cards
+Wolves_Red Cards
+Wolves_Goalkeeper Saves
+Wolves_Total passes
+Wolves_Passes accurate
+Wolves_Passes %
+Wolves_expected_goals
+Wolves_goals_prevented
+home_avg_goals
+home_avg_corners
+home_avg_xg
+away_avg_goals
+away_avg_corners
+away_avg_xg
+Arsenal_Shots on Goal
+Arsenal_Shots off Goal
+Arsenal_Total Shots
+Arsenal_Blocked Shots
+Arsenal_Shots insidebox
+Arsenal_Shots outsidebox
+Arsenal_Fouls
+Arsenal_Corner Kicks
+Arsenal_Offsides
+Arsenal_Ball Possession
+Arsenal_Yellow Cards
+Arsenal_Red Cards
+Arsenal_Goalkeeper Saves
+Arsenal_Total passes
+Arsenal_Passes accurate
+Arsenal_Passes %
+Arsenal_expected_goals
+Arsenal_goals_prevented
+Everton_Shots on Goal
+Everton_Shots off Goal
+Everton_Total Shots
+Everton_Blocked Shots
+Everton_Shots insidebox
+Everton_Shots outsidebox
+Everton_Fouls
+Everton_Corner Kicks
+Everton_Offsides
+Everton_Ball Possession
+Everton_Yellow Cards
+Everton_Red Cards
+Everton_Goalkeeper Saves
+Everton_Total passes
+Everton_Passes accurate
+Everton_Passes %
+Everton_expected_goals
+Everton_goals_prevented
+Burnley_Shots on Goal
+Burnley_Shots off Goal
+Burnley_Total Shots
+Burnley_Blocked Shots
+Burnley_Shots insidebox
+Burnley_Shots outsidebox
+Burnley_Fouls
+Burnley_Corner Kicks
+Burnley_Offsides
+Burnley_Ball Possession
+Burnley_Yellow Cards
+Burnley_Red Cards
+Burnley_Goalkeeper Saves
+Burnley_Total passes
+Burnley_Passes accurate
+Burnley_Passes %
+Burnley_expected_goals
+Burnley_goals_prevented
+Nottingham Forest_Shots on Goal
+Nottingham Forest_Shots off Goal
+Nottingham Forest_Total Shots
+Nottingham Forest_Blocked Shots
+Nottingham Forest_Shots insidebox
+Nottingham Forest_Shots outsidebox
+Nottingham Forest_Fouls
+Nottingham Forest_Corner Kicks
+Nottingham Forest_Offsides
+Nottingham Forest_Ball Possession
+Nottingham Forest_Yellow Cards
+Nottingham Forest_Red Cards
+Nottingham Forest_Goalkeeper Saves
+Nottingham Forest_Total passes
+Nottingham Forest_Passes accurate
+Nottingham Forest_Passes %
+Nottingham Forest_expected_goals
+Nottingham Forest_goals_prevented
+Chelsea_Shots on Goal
+Chelsea_Shots off Goal
+Chelsea_Total Shots
+Chelsea_Blocked Shots
+Chelsea_Shots insidebox
+Chelsea_Shots outsidebox
+Chelsea_Fouls
+Chelsea_Corner Kicks
+Chelsea_Offsides
+Chelsea_Ball Possession
+Chelsea_Yellow Cards
+Chelsea_Red Cards
+Chelsea_Goalkeeper Saves
+Chelsea_Total passes
+Chelsea_Passes accurate
+Chelsea_Passes %
+Chelsea_expected_goals
+Chelsea_goals_prevented
+Bournemouth_Shots on Goal
+Bournemouth_Shots off Goal
+Bournemouth_Total Shots
+Bournemouth_Blocked Shots
+Bournemouth_Shots insidebox
+Bournemouth_Shots outsidebox
+Bournemouth_Fouls
+Bournemouth_Corner Kicks
+Bournemouth_Offsides
+Bournemouth_Ball Possession
+Bournemouth_Yellow Cards
+Bournemouth_Red Cards
+Bournemouth_Goalkeeper Saves
+Bournemouth_Total passes
+Bournemouth_Passes accurate
+Bournemouth_Passes %
+Bournemouth_expected_goals
+Bournemouth_goals_prevented
+Manchester City_Shots on Goal
+Manchester City_Shots off Goal
+Manchester City_Total Shots
+Manchester City_Blocked Shots
+Manchester City_Shots insidebox
+Manchester City_Shots outsidebox
+Manchester City_Fouls
+Manchester City_Corner Kicks
+Manchester City_Offsides
+Manchester City_Ball Possession
+Manchester City_Yellow Cards
+Manchester City_Red Cards
+Manchester City_Goalkeeper Saves
+Manchester City_Total passes
+Manchester City_Passes accurate
+Manchester City_Passes %
+Manchester City_expected_goals
+Manchester City_goals_prevented
+West Ham_Shots on Goal
+West Ham_Shots off Goal
+West Ham_Total Shots
+West Ham_Blocked Shots
+West Ham_Shots insidebox
+West Ham_Shots outsidebox
+West Ham_Fouls
+West Ham_Corner Kicks
+West Ham_Offsides
+West Ham_Ball Possession
+West Ham_Yellow Cards
+West Ham_Red Cards
+West Ham_Goalkeeper Saves
+West Ham_Total passes
+West Ham_Passes accurate
+West Ham_Passes %
+West Ham_expected_goals
+West Ham_goals_prevented
+Brighton_Shots on Goal
+Brighton_Shots off Goal
+Brighton_Total Shots
+Brighton_Blocked Shots
+Brighton_Shots insidebox
+Brighton_Shots outsidebox
+Brighton_Fouls
+Brighton_Corner Kicks
+Brighton_Offsides
+Brighton_Ball Possession
+Brighton_Yellow Cards
+Brighton_Red Cards
+Brighton_Goalkeeper Saves
+Brighton_Total passes
+Brighton_Passes accurate
+Brighton_Passes %
+Brighton_expected_goals
+Brighton_goals_prevented
+Manchester United_Shots on Goal
+Manchester United_Shots off Goal
+Manchester United_Total Shots
+Manchester United_Blocked Shots
+Manchester United_Shots insidebox
+Manchester United_Shots outsidebox
+Manchester United_Fouls
+Manchester United_Corner Kicks
+Manchester United_Offsides
+Manchester United_Ball Possession
+Manchester United_Yellow Cards
+Manchester United_Red Cards
+Manchester United_Goalkeeper Saves
+Manchester United_Total passes
+Manchester United_Passes accurate
+Manchester United_Passes %
+Manchester United_expected_goals
+Manchester United_goals_prevented
+Crystal Palace_Shots on Goal
+Crystal Palace_Shots off Goal
+Crystal Palace_Total Shots
+Crystal Palace_Blocked Shots
+Crystal Palace_Shots insidebox
+Crystal Palace_Shots outsidebox
+Crystal Palace_Fouls
+Crystal Palace_Corner Kicks
+Crystal Palace_Offsides
+Crystal Palace_Ball Possession
+Crystal Palace_Yellow Cards
+Crystal Palace_Red Cards
+Crystal Palace_Goalkeeper Saves
+Crystal Palace_Total passes
+Crystal Palace_Passes accurate
+Crystal Palace_Passes %
+Crystal Palace_expected_goals
+Crystal Palace_goals_prevented
+Aston Villa_Shots on Goal
+Aston Villa_Shots off Goal
+Aston Villa_Total Shots
+Aston Villa_Blocked Shots
+Aston Villa_Shots insidebox
+Aston Villa_Shots outsidebox
+Aston Villa_Fouls
+Aston Villa_Corner Kicks
+Aston Villa_Offsides
+Aston Villa_Ball Possession
+Aston Villa_Yellow Cards
+Aston Villa_Red Cards
+Aston Villa_Goalkeeper Saves
+Aston Villa_Total passes
+Aston Villa_Passes accurate
+Aston Villa_Passes %
+Aston Villa_expected_goals
+Aston Villa_goals_prevented
+Brentford_Shots on Goal
+Brentford_Shots off Goal
+Brentford_Total Shots
+Brentford_Blocked Shots
+Brentford_Shots insidebox
+Brentford_Shots outsidebox
+Brentford_Fouls
+Brentford_Corner Kicks
+Brentford_Offsides
+Brentford_Ball Possession
+Brentford_Yellow Cards
+Brentford_Red Cards
+Brentford_Goalkeeper Saves
+Brentford_Total passes
+Brentford_Passes accurate
+Brentford_Passes %
+Brentford_expected_goals
+Brentford_goals_prevented
+Newcastle_Shots on Goal
+Newcastle_Shots off Goal
+Newcastle_Total Shots
+Newcastle_Blocked Shots
+Newcastle_Shots insidebox
+Newcastle_Shots outsidebox
+Newcastle_Fouls
+Newcastle_Corner Kicks
+Newcastle_Offsides
+Newcastle_Ball Possession
+Newcastle_Yellow Cards
+Newcastle_Red Cards
+Newcastle_Goalkeeper Saves
+Newcastle_Total passes
+Newcastle_Passes accurate
+Newcastle_Passes %
+Newcastle_expected_goals
+Newcastle_goals_prevented
+Sheffield Utd_Shots on Goal
+Sheffield Utd_Shots off Goal
+Sheffield Utd_Total Shots
+Sheffield Utd_Blocked Shots
+Sheffield Utd_Shots insidebox
+Sheffield Utd_Shots outsidebox
+Sheffield Utd_Fouls
+Sheffield Utd_Corner Kicks
+Sheffield Utd_Offsides
+Sheffield Utd_Ball Possession
+Sheffield Utd_Yellow Cards
+Sheffield Utd_Red Cards
+Sheffield Utd_Goalkeeper Saves
+Sheffield Utd_Total passes
+Sheffield Utd_Passes accurate
+Sheffield Utd_Passes %
+Sheffield Utd_expected_goals
+Sheffield Utd_goals_prevented
+Tottenham_Shots on Goal
+Tottenham_Shots off Goal
+Tottenham_Total Shots
+Tottenham_Blocked Shots
+Tottenham_Shots insidebox
+Tottenham_Shots outsidebox
+Tottenham_Fouls
+Tottenham_Corner Kicks
+Tottenham_Offsides
+Tottenham_Ball Possession
+Tottenham_Yellow Cards
+Tottenham_Red Cards
+Tottenham_Goalkeeper Saves
+Tottenham_Total passes
+Tottenham_Passes accurate
+Tottenham_Passes %
+Tottenham_expected_goals
+Tottenham_goals_prevented
+Luton_Shots on Goal
+Luton_Shots off Goal
+Luton_Total Shots
+Luton_Blocked Shots
+Luton_Shots insidebox
+Luton_Shots outsidebox
+Luton_Fouls
+Luton_Corner Kicks
+Luton_Offsides
+Luton_Ball Possession
+Luton_Yellow Cards
+Luton_Red Cards
+Luton_Goalkeeper Saves
+Luton_Total passes
+Luton_Passes accurate
+Luton_Passes %
+Luton_expected_goals
+Luton_goals_prevented
+Fulham_Shots on Goal
+Fulham_Shots off Goal
+Fulham_Total Shots
+Fulham_Blocked Shots
+Fulham_Shots insidebox
+Fulham_Shots outsidebox
+Fulham_Fouls
+Fulham_Corner Kicks
+Fulham_Offsides
+Fulham_Ball Possession
+Fulham_Yellow Cards
+Fulham_Red Cards
+Fulham_Goalkeeper Saves
+Fulham_Total passes
+Fulham_Passes accurate
+Fulham_Passes %
+Fulham_expected_goals
+Fulham_goals_prevented
