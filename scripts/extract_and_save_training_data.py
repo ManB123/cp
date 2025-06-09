@@ -51,30 +51,32 @@ def main():
 
     for league in get_supported_leagues():
         league_id = league["id"]
-        season = league["season"]
+        latest_season = league["season"]
+        seasons_to_use = [latest_season - 1, latest_season]
 
-        assert isinstance(season, int), f"Season must be int! Got {season} ({type(season)})"
+        for season in seasons_to_use:
+            assert isinstance(season, int), f"Season must be int! Got {season} ({type(season)})"
+            print(f"\n🔍 Processing {league['name']} (ID: {league_id}, Season: {season})...")
 
-        print(f"\n🔍 Processing {league['name']} (ID: {league_id}, Season: {season})...")
-        fixtures = get_finished_fixtures(league_id, season)
-        print(f"✅ Fixtures returned: {len(fixtures)}")
+            fixtures = get_finished_fixtures(league_id, season)
+            print(f"✅ Fixtures returned: {len(fixtures)}")
 
-        rows = []
-        for f in fixtures:
-            result = extract_features_from_fixture(f)
-            if result:
-                rows.append(result)
+            rows = []
+            for f in fixtures:
+                result = extract_features_from_fixture(f)
+                if result:
+                    rows.append(result)
+                else:
+                    print(f"⚠️ Skipped fixture {f['fixture']['id']}")
+
+            if rows:
+                df = pd.DataFrame(rows)
+                league_file = os.path.join(OUTPUT_DIR, f"{league['name'].replace(' ', '_')}_{season}_features.csv")
+                df.to_csv(league_file, index=False)
+                print(f"✅ Saved {len(df)} rows to {league_file}")
+                all_data.append(df)
             else:
-                print(f"⚠️ Skipped fixture {f['fixture']['id']}")
-
-        if rows:
-            df = pd.DataFrame(rows)
-            league_file = os.path.join(OUTPUT_DIR, f"{league['name'].replace(' ', '_')}_features.csv")
-            df.to_csv(league_file, index=False)
-            print(f"✅ Saved {len(df)} rows to {league_file}")
-            all_data.append(df)
-        else:
-            print(f"⚠️ No valid data for {league['name']}")
+                print(f"⚠️ No valid data for {league['name']} season {season}")
 
     if all_data:
         combined = pd.concat(all_data, ignore_index=True)
